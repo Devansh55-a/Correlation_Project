@@ -56,6 +56,7 @@ print(CompanyGrossSumSorted)
 ```
 
 ### Correlation Analysis
+![corrr](https://github.com/user-attachments/assets/fd643ec8-bdab-4bad-9d8a-9f962f3bbe17)
 The correlation matrix is used to visualize the relationships between numeric variables like budget, gross, score, and votes.
 #### Correlation matrix for numeric columns
 ```
