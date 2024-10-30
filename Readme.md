@@ -56,7 +56,9 @@ print(CompanyGrossSumSorted)
 ```
 
 ### Correlation Analysis
+
 ![corrr](https://github.com/user-attachments/assets/fd643ec8-bdab-4bad-9d8a-9f962f3bbe17)
+
 The correlation matrix is used to visualize the relationships between numeric variables like budget, gross, score, and votes.
 #### Correlation matrix for numeric columns
 ```
@@ -65,6 +67,11 @@ sns.heatmap(correlation_matrix, annot=True)
 plt.title("Correlation Matrix for Numeric Features")
 plt.show()
 ```
+
+![corheatmap](https://github.com/user-attachments/assets/d3c9fcc0-6451-40d7-938e-49c29c8c8547)
+
+
+
 #### Factorizing Categorical Variables
 For categorical columns, factorization assigns numeric values to each unique category, enabling correlation analysis across all features, not just numeric ones.
 ```
